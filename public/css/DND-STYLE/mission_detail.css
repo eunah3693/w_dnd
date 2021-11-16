@@ -1,0 +1,413 @@
+article {
+    position: relative;
+    width: 100%;
+}
+.top-description {
+    width: 100%;
+    position: relative;
+}
+.top-description img {
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+.top-description .challenge {
+    background-color: #fcca00;
+    border: none;
+    padding: 25px;
+    width: calc(720px * 0.9);
+    border-radius: 20px;
+    font-weight: bold;
+    position: fixed;
+    top: 132px;
+    left: calc(50% - 324px);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 22px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.middle-description {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 22px;
+}
+.middle-description .cont-box {
+    width: 100%;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 23px !important;
+    color: initial !important;
+}
+
+.button-box {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.story-mission-btn-group {
+    text-align: center;
+}
+
+.form-submit-btn {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px 0px;
+    font-size: 22px;
+    border: none;
+    font-weight: 700;
+    background-color: #84addb;
+    border-radius: 42px;
+    border: none;
+}
+.pet-filter-story {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0 45px 0;
+}
+.box-radio-input.pets {
+    margin: 0px 20px;
+}
+.box-radio-input.pets input[type="radio"] + div {
+    display: inline-block;
+    background: none;
+    border: 1px solid rgb(211, 211, 211);
+    padding: 8px;
+    text-align: center;
+    line-height: 33px;
+    cursor: pointer;
+    width: 145px;
+    height: 145px;
+    border-radius: 200px;
+    overflow: hidden;
+}
+.box-radio-input.pets input[type="radio"]:checked + div {
+    border: 1px solid #e15b55;
+    background: #e15b55;
+    color: #fff;
+}
+.box-radio-input.pets img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    display: block;
+    object-fit: cover;
+}
+.box-radio-input input[type="radio"] {
+    display: none;
+}
+
+.box-radio-input input[type="radio"] + span {
+    display: inline-block;
+    background: none;
+    border: 1px solid rgb(191, 191, 191);
+    padding: 20px 0px;
+    text-align: center;
+    height: 35px;
+    line-height: 33px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 77px;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.box-radio-input input[type="radio"]:checked + span {
+    border: 1px solid #ef998c;
+    background: #ef998c;
+    color: #fff;
+}
+iframe {
+    width: 612px;
+    margin: 0 auto;
+}
+
+/* 페이지 작업 2차 css */
+.md-div {
+    width: 100%;
+}
+.md-h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 70px 0 15px 0;
+}
+.md-h2 span {
+    color: #e15b55;
+}
+.md-h3 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    width: 80%;
+    margin: 0 auto;
+    word-break: keep-all;
+}
+.difficulty-wrapper {
+    text-align: center;
+    width: 350px;
+    /* border: 1px solid green; */
+    margin: 50px auto 50px auto;
+}
+.story-board {
+    /* background-image: url("/image/noteline.svg"); */
+    background-repeat: repeat-y;
+    background-size: 612px 55px;
+    width: 612px;
+    margin: 0px auto 00px auto;
+}
+.story-board p {
+    line-height: 55px;
+    text-align: justify;
+    font-size: 24px;
+    color: #7e7e7e;
+    text-align-last: center;
+}
+.story-board span {
+    padding-bottom: 4px;
+    /* display: inline-block; */
+    border-bottom: 1px solid #e9e9e9;
+}
+.goal-div {
+    width: 650px;
+    margin: 90px auto 70px auto;
+    /* padding: 20px; */
+}
+.goal-title {
+    width: 612px !important;
+    margin: 0 auto;
+    background-color: #faeeec;
+    border-radius: 10px;
+}
+.goal-cont .cam-icon {
+    width: 60px;
+    height: 60px;
+    /* border: 1px solid blue; */
+    margin-left: 30px;
+}
+.goal-cont .cam-icon img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.goal-div .goal-cont {
+    display: flex;
+    align-items: center;
+    padding: 40px 0px 40px 0px;
+    position: relative;
+    justify-content: space-between;
+}
+.goal-div .goal-cont p {
+    margin: 0 30px 0 0px;
+    color: #4e4e4e;
+    font-weight: 500;
+    font-size: 27px;
+    width: 475px;
+    line-height: 37px;
+}
+.arrow-left {
+    position: absolute;
+    left: 0;
+    width: 35px;
+    top: 0;
+}
+.arrow-left img {
+    display: block;
+    line-height: 200px;
+}
+.arrow-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 35px;
+}
+.arrow-right img {
+    display: block;
+    line-height: 200px;
+}
+.ex-video {
+    width: 612px;
+    height: 315px;
+    /* border: 1px solid orange; */
+    margin: 30px auto 60px auto;
+    /* margin-bottom: 60px; */
+}
+.target-div {
+    width: 100%;
+    background-color: #4e4e4e;
+}
+.target-title {
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.target-title div {
+    width: 50%;
+    height: 50px;
+    /* border: 1px solid green; */
+}
+.target-circle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.target-circle div {
+    width: 150px;
+    height: 150px;
+    /* border: 1px solid orange; */
+    border-radius: 100px;
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 12px 50px;
+    background-color: white;
+}
+.target-circle div p {
+    /* width: 120px; */
+    /* height: 80px; */
+    word-break: keep-all;
+    line-height: 40px;
+    /* line-height: 70px; */
+    text-align: center;
+    /* border: 1px solid pink; */
+    border-radius: 100px;
+    /* position: absolute; */
+    /* top: calc(50% - 40px); */
+    /* left: 17px; */
+    font-size: 32px;
+    color: #4e4e4e;
+    /* margin: 50px 0; */
+    font-weight: bold;
+    padding: 5px;
+}
+.how-div,
+.tips-div {
+    padding: 60px 50px;
+    background-color: #e8e8e8;
+    box-sizing: border-box;
+}
+.how-title,
+.tips-title {
+    margin: 0px 0 10px 0;
+    /* border: 1px solid green; */
+}
+.how-title p,
+.tips-title p {
+    font-size: 35px;
+    font-weight: bold;
+}
+.star-wrapper {
+    height: 50px;
+    /* border: 1px solid orange; */
+}
+.tips-div {
+    padding-bottom: 120px !important;
+    position: relative;
+    background-color: #f5f5f5;
+}
+.tips-btn {
+    width: 100%;
+    position: absolute;
+    /* border: 1px solid purple; */
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+.tips-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 10px 0; */
+    width: 100%;
+    height: 100%;
+}
+.tips-btn p {
+    text-align: center;
+    /* border: 1px solid orange; */
+    line-height: 50px;
+    /* border: 1px solid red; */
+}
+.tips-btn img {
+    /* border: 1px solid pink; */
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.md-hidden-p {
+    display: none;
+}
+.post-link-btn {
+    width: 550px;
+    margin: 0 auto;
+    display: block;
+    line-height: 75px;
+    background-color: #ef998c;
+    text-align: center;
+    border-radius: 100px;
+    font-size: 28px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.how-cont .star {
+    padding-right: 7px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.post-link-btn .challenge {
+    color: white;
+    display: inline-block;
+    width: 500px;
+}
+.surf {
+    width: 550px;
+    margin: 0 auto;
+    display: block;
+    line-height: 75px;
+    background-color: #69baca;
+    text-align: center;
+    border-radius: 100px;
+    font-size: 28px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.on {
+    color: #e15b55;
+}
+.treat {
+    padding-top: 40px;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center;
+}
+.t-icon {
+    width: 25px !important;
+    height: 25px !important;
+    margin: 0 !important;
+    display: inline-block !important;
+}
+.treat p {
+    display: inline-block;
+    font-size: 25px;
+    line-height: 30px;
+    color: #62bece;
+    padding-left: 5px;
+    padding-right: 5px;
+}

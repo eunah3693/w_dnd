@@ -1,0 +1,334 @@
+/* main page */
+article {
+    padding-top: 0;
+}
+.nav-top {
+    height: 127px;
+    background-color: transparent;
+    border: none;
+}
+.nav-top ul li {
+    height: 127px !important;
+}
+.main-user-icon {
+    position: relative;
+}
+.main-user-icon img {
+    position: absolute;
+    width: 36px;
+}
+.main-user-icon img.star {
+    top: 45px;
+    right: 48px;
+    width: 40px;
+}
+.main-user-icon img.guide {
+    top: 39px;
+}
+.main-banner-section {
+    width: 100%;
+    overflow: hidden;
+    /* border: 2px solid green; */
+}
+.guide-banner-section {
+    width: 720px;
+    overflow: hidden;
+}
+.main-banner-section a img {
+    width: 720px;
+    height:682px;
+    display: block;
+    object-fit: cover;
+}
+.main-event-banner-section {
+    padding-top: 100px;
+    /* border: 1px solid red; */
+}
+.main-event-banner-section a img {
+    width: 720px;
+    height: 230px;
+    display: block;
+}
+.main-banner-img.card {
+    position: relative;
+    width: 280px;
+    height: 280px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.main-banner-img.card .bg-layer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid gainsboro;
+    box-sizing: border-box;
+}
+.main-banner-img.card .bg-layer img {
+    position: absolute;
+    opacity: 0.5;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    left: -291px;
+    text-align: center;
+    height: 100%;
+    line-height: 200px;
+    margin: 0 auto;
+    display: block;
+}
+.main-banner-img.card .bg-layer.locker img {
+    width: 500px;
+    left: -111px;
+    opacity: 0.8;
+}
+
+.main-content-banner-section {
+    margin-top: 80px;
+    overflow: hidden;
+}
+.main-content-banner-section.first {
+    margin-top: 110px;
+}
+.main-content-banner-section.notice {
+    padding-bottom: 110px;
+}
+.main-content-banner-section .main-page-top {
+    margin-bottom: 30px;
+    position: relative;
+}
+.main-content-banner-section .main-page-top .icon {
+    width: 36px;
+    position: absolute;
+    top: 8px;
+}
+.main-page-top .title {
+    font-size: 36px;
+    font-weight: 700;
+    padding-left: 47px;
+    color: #121213;
+}
+.main-page-top .title .style {
+    font-style: oblique;
+}
+.main-page-top .url {
+    font-size: 23px;
+    display: inline;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    color: #4e4e4e;
+}
+/* .main-sub-banner-list {
+    padding-left: 20px;
+} */
+.main-content-banner-section {
+    margin-left: 30px;
+}
+.main-page-bottom {
+    margin-top: 15px;
+    margin-left: 8px;
+}
+.main-page-bottom p {
+    margin-bottom: 6px;
+}
+@font-face {
+    font-family: "GmarketSansTTFBold";
+    src: url("/fonts/GmarketSansTTFBold.ttf") format("truetype");
+}
+.main-page-bottom .step {
+    font-family: "GmarketSansTTFBold" !important;
+    color: #ef998c;
+    font-size: 24px;
+}
+.main-page-bottom .step.weekly {
+    color: #3fa8bc;
+}
+.main-page-bottom .step.daily {
+    color: #ef998c;
+}
+.main-page-bottom .step.event {
+    color: #e5b36b;
+}
+.main-page-bottom .step.disable {
+    color: #dbdbdb;
+}
+.main-page-bottom .title {
+    color: #424242;
+    font-size: 24px;
+    display: inline-block;
+    height: 32px;
+    width: 280px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.main-page-bottom .like-comment {
+    color: #bdbdbd;
+    font-size: 24px;
+}
+.main-page-bottom .like-comment img {
+    width: 20px;
+    margin-right: 4px;
+}
+.main-page-bottom .like-comment span {
+    margin-right: 20px;
+    color: #bdbdbd;
+}
+.main-page-bottom p.disable {
+    color: #bdbdbd;
+}
+.main-page-bottom .treat {
+    position: relative;
+    font-size: 24px;
+    color: #69baca;
+}
+.main-page-bottom .treat img {
+    width: 22px;
+}
+.main-page-bottom .treat span {
+    position: absolute;
+    top: -2px;
+    color: #69baca;
+    left: 27px;
+}
+.main-notice-list ul {
+    margin-right: 20px;
+    border-bottom: 1px solid #dddddd;
+}
+.main-notice-list li {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #dddddd;
+}
+.main-notice-list li p {
+    font-size: 24px;
+}
+
+.main-notice-list li p.date {
+    position: absolute;
+    top: 20px;
+    right: 5px;
+    color: #bdbdbd;
+}
+.main-content-banner-section .main-banner-img.card a img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.main-content-banner-section .main-banner-img.card a img.user {
+    display: block;
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+}
+/* 이미지 팝업 이미지 크기 */
+.guide-banner-img img {
+    /* width: 720px !important; */
+    /* height: 1300px !important; */
+    width: 720px;
+    height: 100%;
+    display: block;
+}
+
+.main-icons {
+    width: 100%;
+    position: relative;
+}
+.main-icons ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-icons ul li {
+    width: 25%;
+    height: 100%;
+    margin: auto auto 0 auto;
+}
+.main-icons ul li a {
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    padding: 45px 0 45px 0;
+}
+.main-icons ul li i {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.main-footer {
+    width: 100%;
+    border-top: 1px solid #dbdbdb;
+}
+.main-footer .buttons {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.main-footer a {
+    box-sizing: border-box;
+    float: left;
+    margin: 40px 10px 10px 0;
+    border-radius: 30px;
+    display: block;
+}
+.buttons a {
+    padding: 5px 20px;
+    border: 1px solid #666666;
+    color: #666666;
+}
+.footer-div {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+}
+.main-footer span {
+    text-align: left;
+    color: #afafaf;
+    font-size: 20px;
+    padding: 2.5px 0;
+    display: block;
+}
+.company {
+    width: 100%;
+    display: block;
+    font-size: 28px !important;
+    color: #333333 !important;
+    font-weight: bold !important;
+    display: block;
+    text-align: left !important;
+    margin-bottom: 30px;
+}
+.copyright {
+    color: #666666 !important;
+}
+.sns-group {
+    position: absolute;
+    top: 0%;
+    right: 50px;
+}
+.main-log a {
+    display: block;
+    text-align: center;
+    margin: 30px;
+    background-color: gainsboro;
+    width: 100px;
+    border-radius: 100px;
+    height: 50px;
+    line-height: 50px;
+    float: right;
+}
+.main-icons {
+    height: 110px;
+}

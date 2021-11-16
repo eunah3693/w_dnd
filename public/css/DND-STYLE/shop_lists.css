@@ -1,0 +1,105 @@
+/* shop_lists */
+section.main-banner-section{
+    width: 100%;
+}
+    .main-banner-wrapper{
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 1s ease;
+        -webkit-transition: opacity 1s ease;
+        text-align: center;
+        position: relative;
+        width: 100%;
+    }
+    .main-banner-wrapper.slick-initialized{
+        visibility: visible;
+        opacity: 1;
+    }
+        .main-banner-img{
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        margin: 0 auto;
+        text-align:center;
+        width: 100%;
+        line-height: 0;
+        display: block;
+        }
+        .main-banner-img a img {
+            width: 100%;
+            display: block;
+        }
+        .main-banner-section > div{
+            line-height: 0;
+            font-size: 0;
+        }
+section.item-lists{
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+}
+section.item-lists ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+    section.item-lists .list-box{
+        width: 100%;
+        margin: 2.5% 0;
+        height: 300px;
+        position: relative;
+        box-sizing: border-box;
+    }
+        section.item-lists .list-box img{
+            display: block;
+            height: 100%;
+        }
+        section.item-lists .list-box .cont-box{
+            width: 100%;
+            text-align: center;
+            height: 300px;
+            font-size: 20px;
+            padding-top: 20px;
+        }
+            section.item-lists .list-box .cont-box p{
+                margin-bottom: 10px;
+            }
+            .bg-layer {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                background-color: rgba(49, 49, 49, 0.844);
+                border: 1px solid gainsboro;
+                box-sizing: border-box;
+            }
+            .bg-layer p {
+                color: rgb(255, 255, 255);
+                font-size: 35px;
+                line-height: 30px;
+                text-align: center;
+                height: 100%;
+                line-height: 238px;
+                margin: 0 auto;
+            }
+            .treat{
+                padding-top: 40px;
+                display: flex !important;
+                align-items: center !important;
+                justify-content:center;
+            }
+            .t-icon{
+                width: 25px !important; 
+                height: 25px !important;
+                margin: 0 !important;
+                display: inline-block !important;
+            }
+            .treat p{
+                display: inline-block;
+                font-size: 25px;
+                line-height: 30px;
+                color: #62BECE;
+                padding-left: 5px;
+            }

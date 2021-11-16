@@ -1,0 +1,62 @@
+.chkbox-wrapper{
+    border: 1px solid red;
+    width: 90%;
+    position: relative;
+    height: 50px;
+}
+.chkbox-list{
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+    margin-top: 30px;
+}
+    input[type="checkbox"] {
+        display:none;
+
+    }
+        span{
+            display: block;
+            width:300px;
+            font-size: 20px;
+            color: white;
+            height: 20px;
+            line-height: 15px;
+            /* margin-left: 30px; */
+            position: absolute;
+            top: 0;
+            left: calc(50% - 150px);
+            text-align: center;
+            /* border: 1px solid red; */
+            /* box-sizing: border-box; */
+        }
+    input[type="checkbox"]:checked + label {
+        background-color: gold;
+    
+    }
+    .chkbox-list label {
+        display: block;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        background-color: gainsboro;
+        margin: 10px;
+        /* position: relative; */
+        margin: 0 auto;
+        box-sizing: border-box;
+        left: 200px;
+
+    }
+
+    input[type="checkbox"]:checked + label::before {
+        content: 'V';
+        height: 20px;
+        font-size: 20px;
+        line-height: 15px;
+        box-sizing: border-box;
+
+    }
+
+
+
+

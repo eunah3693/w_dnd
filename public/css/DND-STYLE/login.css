@@ -1,0 +1,119 @@
+input,
+textarea {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+input[type="text"]::placeholder, input[type="password"]::placeholder {
+    color: #c2c2c2;
+}
+article {
+    background-color: #ffffff;
+    min-height: 100vh;
+    width: 100%;
+}
+section.logo {
+    width: 141px;
+    margin: 0px auto;
+    /* padding-top: 50px; */
+    margin-bottom: 70px;
+}
+.logo a {
+    width: 100%;
+}
+.logo a img {
+    display: inline-block;
+    width: 100%;
+}
+.login fieldset {
+    border: none;
+    margin: 0 auto;
+    width: 490px;
+}
+.login fieldset input {
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+    font-size: 22px;
+    height: 70px;
+    margin-bottom: 30px;
+    line-height: 70px;
+    box-sizing: border-box;
+}
+.login fieldset label:first-child input {
+    border: none;
+    border-bottom: 5px solid #ef998c;
+}
+.login fieldset label:first-child p {
+    color: #ef998c;
+}
+.login fieldset label input {
+    border: none;
+    border-bottom: 1px solid black;
+}
+fieldset label p {
+    font-size: 25px;
+}
+input::placeholder,
+input::-webkit-input-placeholder {
+    font-size: 20px;
+    line-height: 80px;
+}
+
+.login .button {
+    width: 490px;
+    border-radius: 50px;
+    border: none;
+    height: 80px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    display: block;
+    background-color: transparent;
+    /* border: 1px solid #4d4d4d; */
+}
+.login-btn {
+    background-color: #ef998c !important;
+    border: none !important;
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+}
+#custom-login-btn {
+    background-color: #fee500;
+    border: none !important;
+    cursor: pointer;
+}
+a img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 17px;
+    width: 70%;
+    height: 60%;
+    object-fit: cover;
+}
+a {
+    overflow: hidden;
+    position: relative;
+}
+.guest-btn,
+.password-btn {
+    color: #a5a5a5;
+    font-size: 23px;
+}
+.join-btn {
+    font-size: 23px;
+}
+.join-btn,
+.guest-btn,
+.password-btn {
+    width: 490px;
+    border-radius: 50px;
+    border: none;
+    /* height: 80px; */
+    margin: 55px auto;
+    display: block;
+    background-color: transparent;
+    cursor: pointer;
+}
+.join-btn span {
+    color: #108ca4;
+}

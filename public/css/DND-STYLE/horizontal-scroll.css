@@ -1,0 +1,163 @@
+/* 가로스크롤 공통 css */
+.horizontal-scroll-menu::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Opera*/
+}
+    .horizontal-scroll-menu{
+        white-space:nowrap;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        border-bottom: 1px solid #dcdcdc;
+        position: fixed;
+        height: 78px;
+        box-sizing: border-box;
+        width: 720px;
+        background-color: white;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        z-index: 800;
+    }
+        .horizontal-scroll-menu div.box{
+            height: 80px;
+            box-sizing: border-box;
+        }
+            .filter-fixed{
+                width: 20%;
+                float: left;
+                border-right: 1px solid #dcdcdc ;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .filter-scroll{
+                overflow-y :hidden;
+                float: left;
+                display: flex;
+                align-items: center;
+            }
+            .horizontal-scroll-menu button{
+                height: 60px;
+                border-radius: 50px;
+                width: 120px;
+                font-size: 19px;
+                margin: 10px;
+                /* border: 1px solid rgb(169, 169, 169); */
+                background-color: white;
+                /* border-bottom: 1px solid rgb(169, 169, 169); */
+            }
+                .filter-scroll button{
+                    width: 100px;
+                }
+            .filter-active{
+                background-color: orange !important;
+            }
+
+            .filter-active{
+                background-color: orange !important;
+            }
+
+
+            .box-radio-input{
+                display: inline-block;
+                /* height: 48px; */
+                /* padding: 0 30px; */
+                /* border: 1px solid #dcdcdc; */
+                background-color: white;
+                margin: 0 0 0 13px;
+                /* line-height: 48px; */
+                border-radius: 24px;
+                z-index: 800;
+            }
+            .daily-m-btn input[type="checkbox"]:checked + span{
+                border:1px solid #108ca4 !important;
+                background:#108ca4 !important;
+                color:#fff;
+
+            }
+            .daily-m-btn input[type="checkbox"] + span{
+                margin-left: 10px;
+            }
+            .sort{
+                display: inline-block;
+                /* height: 48px; */
+                /* padding: 0 30px; */
+                background-color: white;
+                margin: 0 0 0 0;
+                /* line-height: 48px; */
+                border: none;
+                border-radius: 24px;
+                z-index: 800;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+
+            .box-radio-input input[type="checkbox"],.box-radio-input-sort input[type="checkbox"] {
+                display:none;
+            }
+
+
+            .box-radio-input input[type="checkbox"] + span{
+                color:#bdbdbd;
+                border-radius: 24px;
+                /* width: 104px; */
+                font-size: 23px;
+                border: none;
+                background-color: white;
+                /* margin: 15px 13px; */
+                display: block;
+                padding: 0 30px;
+                border: 1px solid #dcdcdc;
+                border-radius: 24px;
+                font-weight: 450;
+                height: 49px;
+                line-height: 49px;
+            }
+            .sort input[type="checkbox"] + span{
+                border-radius: 24px;
+                font-size: 23px;
+                border: none;
+                display: block;
+                padding: 0;
+                color: #121213;
+                font-weight: 450;
+                height: 49px;
+                line-height: 49px;
+                /* float: left; */
+            }
+            .sort-icon img{
+                height: 100%;
+                /* width: 100%; */
+                display: block;
+            }
+            .sort-icon{
+                /* float: left; */
+                /* width: 30px; */
+                height: 21px;
+                padding-left: 5px;
+            }
+            .box-radio-input input[type="checkbox"]:checked + span{
+                border:1px solid #ef998c;
+                background:#ef998c;
+                color:#fff;
+            }
+            .sort input[type="checkbox"]:checked + span{
+                border:none !important;
+                background: transparent;
+                color: #121213;
+            }
+            .input-hide{
+                visibility: hidden;
+            }
+            .input-hide input[type="checkbox"]:checked + span{
+                border:1px solid #ef998c;
+                background: transparent;
+                color: #ef998c;
+            }
+            .input-hide input[type="checkbox"] + span{
+                border:none;
+            }
+
+

@@ -1,0 +1,90 @@
+/* 1:1질문 답변 */
+article {
+    width: 100%;
+    font-size: 25px;
+    background-color: #fafafa;
+    min-height: 100vh;
+}
+section {
+    z-index: 990;
+}
+section .ntf-lists ul {
+    margin-bottom: 22px;
+}
+section .ntf-lists ul li:first-child {
+    border-bottom: 3px solid #fafafa;
+    height: 116px;
+    display: flex;
+    align-items: center;
+}
+section .ntf-lists ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    padding: 0px 53px 0px 53px;
+    box-sizing: border-box;
+}
+.title-head {
+    padding: 70px 0;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 30px;
+    border-bottom: 1px solid rgb(169, 169, 169);
+    background-color: rgb(255, 215, 141);
+}
+.ntf-img-wrapper {
+    width: 68px !important;
+    height: 68px;
+    display: block;
+}
+.ntf-img-wrapper img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+section .ntf-lists {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 7px 0;
+    background-color: white;
+}
+.q-wrapper {
+    width: 100%;
+    padding: 15px 15px;
+    box-sizing: border-box;
+}
+.date-box p {
+    text-align: left !important;
+}
+.title-box p {
+    font-size: 25px;
+}
+.date-box p {
+    color: #7e7e7e;
+    font-size: 24px;
+}
+.date-box p span {
+    color: #bdbdbd;
+    font-size: 24px;
+}
+.contents-wrapper {
+    margin: 50px 0;
+    width: 100%;
+}
+.contents-wrapper p {
+    color: #7e7e7e;
+    font-size: 24px;
+}
+.faq-a-wrapper {
+    margin: 15px 0;
+}
+.contents-wrapper span,
+.contents-wrapper p {
+    font-size: 22px !important;
+    line-height: 150% !important;
+}

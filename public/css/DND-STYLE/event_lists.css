@@ -1,0 +1,137 @@
+/* 이벤트 홈 */
+article {
+    background-color: #fafafa !important;
+    min-height: 100vh;
+}
+.container {
+    width: 100%;
+    margin: 20px auto;
+    margin-top: 100px;
+}
+.tab_title li a {
+    display: block;
+}
+.tab_title li {
+    list-style: none;
+    float: left;
+    width: calc(50% - 0px);
+    padding: 20px 0 20px 0;
+    cursor: pointer;
+    text-align: center;
+    border-bottom: 8px solid transparent;
+    font-size: 28px;
+    color: #b6b6b6;
+    background-color: #f1f1f1;
+}
+.tab_title li.on {
+    font-weight: bold;
+    color: #121213;
+    border-bottom: 8px solid #ef998c;
+    background-color: white;
+}
+.tab_cont {
+    clear: both;
+}
+.tab-two {
+    display: none;
+}
+.tab_cont div.on {
+    display: block;
+}
+.event-section {
+    margin: 0 auto;
+    width: 100%;
+    /* margin-top: 20px; */
+}
+.event-box {
+    width: 720px;
+    font-size: 20px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    height: 300px;
+    box-sizing: border-box;
+    background-color: white;
+}
+.event-box a {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    /* border: 1px solid gainsboro; */
+    margin: 0px auto;
+    font-size: 20px;
+    height: 300px;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 100%;
+}
+.event-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.event-box .cont-box {
+    overflow: hidden;
+    height: 50px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    /* background-color: #ffffff61; */
+}
+.event-box h2 {
+    width: 100%;
+    height: 50px;
+}
+.event-box .detail {
+    width: 100%;
+    height: 100px;
+    -webkit-box-orient: vertical;
+}
+.event-box .cont-box .counting {
+    position: absolute;
+    font-size: 23px;
+    font-weight: 600;
+    padding: 8px 20px 0px 20px;
+    color: white;
+    left: 40px;
+}
+.event-box .cont-box h2 {
+    margin-bottom: 10px;
+}
+.tab-two button {
+    background-color: orange;
+    transition: all 0.5s;
+}
+.deactive {
+    background-color: #b5d6f1 !important;
+    transition: all 0.5s;
+}
+.bg-layer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(49, 49, 49, 0.844);
+    border: 1px solid gainsboro;
+    box-sizing: border-box;
+}
+.bg-layer p {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    width: 400px;
+    line-height: 30px;
+    text-align: center;
+    height: 100%;
+    line-height: 240px;
+    margin: 0 auto;
+}

@@ -1,0 +1,305 @@
+.likes-and-comments .comments i {
+    color: #97cae8;
+}
+.comment-title {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: white;
+    padding: 2.5%;
+}
+
+.comment-title img {
+    border-radius: 100px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.comment-title .image-box {
+    float: left;
+    width: 58px;
+    height: 58px;
+}
+.comment-title .image-box a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.content-box {
+    width: 80%;
+    display: inline-block;
+    padding-left: 18px;
+}
+.content-box > p {
+    font-size: 25px;
+    box-sizing: border-box;
+}
+.content-box > p.nickname {
+    font-weight: 700;
+}
+.content-box > p.nickname span {
+    float: right;
+    font-weight: 100;
+    color: #7d7d7d;
+}
+.button-box {
+    display: inline-block;
+    width: 18%;
+}
+.comment-likes {
+    float: right;
+    padding-right: 20px;
+    margin-top: 35px;
+}
+.comment-likes i {
+    color: rgb(196, 196, 196);
+}
+
+.button-box button {
+    border: none;
+    padding: 3px 7px;
+    background: #bfbfbf;
+    height: 28px;
+    border-radius: 12px;
+}
+.likes-and-comments {
+    width: 100%;
+    height: 90px;
+}
+.content-box .bottom {
+    display: flex;
+    align-items: center;
+}
+.content-box .bottom span {
+    color: #9c9c9c;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.content-box .bottom a {
+    color: #69baca;
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.content-box .bottom button {
+    float: right;
+    /* margin-right: 15px; */
+    border: none;
+    padding: 6px 5px;
+    border-radius: 11px;
+    background-color: transparent;
+    font-size: 20px;
+    color: #9c9c9c;
+}
+.swiper-slide-img-box a {
+    height: auto;
+}
+.comment-list {
+    min-height: 142px;
+    margin-bottom: 60px;
+}
+.sub-comment {
+    padding: 20px 0px 0px 20px;
+    border: none;
+}
+.comment-form {
+    width: 720px;
+    border-top: 1px solid #dcdcdc ;
+    position: fixed;
+    bottom: 109px;
+    font-size: 20px;
+    height: 100px;
+    background: #ffffff;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment-form .content {
+    background: transparent;
+    border: 1px solid red;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 60px;
+    font-size: 24px;
+    color: #717171;
+    /* padding: 17px; */
+    /* margin-top: 16px; */
+    /* margin-right: 10px; */
+    float: left;
+}
+.comment-form button.comment-submit {
+    width: 10%;
+    display: block;
+    padding: 14px 0;
+    color: #69baca;
+    font-weight: bold;
+    /* margin-top: 16px; */
+    float: left;
+    box-sizing: border-box;
+    font-size: 25px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    right: 20px;
+    position: absolute;
+}
+.comment-form .image-box {
+    width: 58px;
+    box-sizing: border-box;
+    height: 58px;
+    /* float: left; */
+    overflow: hidden;
+    border-radius: 100px;
+    margin: 0px 2.5%;
+}
+.comment-form .image-box img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+.mentiony-item img{
+    border-radius: 100px;
+}
+.col-xs-3 {
+    margin-top: 5px;
+    margin-right: 20px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+.row {
+    display: flex;
+    align-items: center;
+}
+.col-xs-9 {
+    width: 75%;
+    display: inline-block;
+}
+.help-block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #737373;
+}
+.row:before {
+    display: table;
+    content: " ";
+}
+.row:after {
+    clear: both;
+}
+.mentiony-popover {
+    position: fixed !important;
+    bottom: 209px !important;
+    width: 720px !important;
+    top: unset !important;
+    left: calc(50% - 360px) !important;
+}
+/* .mentiony-container {
+    position: relative;
+    height: 70px !important;
+    border: 1px solid #cecece;
+    padding: 0px !important;
+    left: 100px;
+    top: 17px;
+    border-radius: 90px;
+    font-size: 28px;
+}
+.mentiony-container .mentiony-content{
+    position: absolute;
+    left: 24px;
+} */
+.mentiony-container {
+    /* float: left; */
+    height: 100% !important;
+    font-size: 28px;
+    overflow: scroll;
+    border-radius: 100px;
+    /* margin-top: 18px; */
+}
+.mentiony-item .title,
+.mentiony-item .help-block {
+    border: none !important;
+    font-size: 22px;
+    background-color: #ffffff00;
+}
+.mentiony-item .help-block {
+    display: none;
+}
+
+.post-comment-info {
+    width: 720px;
+    position: fixed;
+    bottom: 210px;
+    font-size: 20px;
+    background: #ffffff;
+    z-index: 999;
+    padding: 10px 0px;
+    font-size: 23px;
+    border-bottom: 1px solid #b1b1b1;
+    border-top: 1px solid #b1b1b1;
+}
+.post-comment-info p {
+    display: inline;
+    padding: 30px;
+}
+
+.post-comment-info .xi-close {
+    float: right;
+    margin-right: 12px;
+    margin-top: 5px;
+}
+.cm-form {
+    border: 1px solid #dcdcdc;
+    margin-right: 15px;
+    border-radius: 100px;
+    width: calc(100% - 130px);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 9px;
+    box-sizing: border-box;
+}
+.mentiony-container .mentiony-content {
+    width: 100% !important;
+    height: 100%;
+    min-height: 60px !important;
+    padding-left: 10px;
+}
+.mentiony-container {
+    /* position: relative; */
+    height: auto;
+    border: none !important;
+    width: 480px !important;
+    margin: 10px;
+    overflow: hidden;
+    padding: 0 !important;
+    /* padding: 20px 0 20px 0 !important; */
+    line-height: 80%;
+    height: calc( 100% - 20px );
+    /* padding: 10px 0; */
+    /* border: 1px solid red !important; */
+}
+.mentiony-content {
+    line-height: 138% !important;
+}
+.comment-img{
+    height: 82px;
+    margin: 0px auto;
+    padding: 30px 0;
+    display: block;
+}
+.comment-list ul{
+    background-color: white;
+}
+.content-box > div {
+    font-size: 25px;
+}
+#comment_list_ul > li{
+    border-top: 1px solid #dedede;
+}

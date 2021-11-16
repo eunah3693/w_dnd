@@ -1,0 +1,74 @@
+/* 알림 */
+.search-wrapper{
+    display: none;
+}
+article{
+    width: 100%;
+    font-size: 25px;
+    background-color: #fafafa;
+    min-height: 100vh;
+}
+
+section{
+    z-index: 990;
+}
+    section .ntf-lists{
+        padding: 0px 53px 0px 45px;
+        width: 100%;
+        box-sizing: border-box;
+        height: 132px;
+        margin: 7px 0;
+        background-color: white;
+        position: relative;
+    }
+    .ntl-active::after{
+        content: '';
+        background-color: #ef998c !important;
+        border: 5px solid #ef998c;
+        position: absolute;
+        top: 31px;
+        left: 113px;
+        border-radius: 20px;
+    }
+    section .ntf-lists ul li a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 132px;
+    }
+
+    .cont-box{
+        width: calc(70% - 35px);
+        margin-left: 19px;
+    }
+    section .ntf-lists ul li a .date-box ,section .ntf-lists ul li a .date-box p {
+        font-size: 24px;
+        color: #c9c9c9;
+        text-align: right;
+        font-weight: 100;
+    }
+    .date-box{
+        width: 135px;
+    }
+    .title-head{
+        padding: 70px 0;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        box-sizing:border-box;
+        font-size: 30px;
+        border-bottom: 1px solid rgb(169, 169, 169);
+        background-color: rgb(255, 215, 141);
+    }
+    .ntf-img-wrapper{
+        width: 68px !important;
+        height: 68px;
+        display: block;
+
+    }
+    .ntf-img-wrapper img{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }

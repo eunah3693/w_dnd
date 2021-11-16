@@ -1,0 +1,219 @@
+article {
+    background-color: gainsboro;
+}
+section.cards-section {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 80px;
+    box-sizing: border-box;
+}
+.anchor {
+    display: block;
+    height: 207px;
+    width: 100%;
+    margin-top: -207px;
+    visibility: hidden;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+.card-div {
+    width: 100%;
+}
+.card-lists {
+    width: 100%;
+}
+.title {
+    border-top: 1px solid rgb(223, 223, 223);
+    border-bottom: 1px solid rgb(223, 223, 223);
+
+    box-sizing: border-box;
+    width: 100%;
+    background-color: white;
+}
+
+.title a {
+    width: 118px;
+    height: 118px;
+    display: block;
+    float: left;
+}
+.title img {
+    width: calc(100% - 44px);
+    border-radius: 100px;
+    box-sizing: border-box;
+    object-fit: cover;
+    height: calc(100% - 44px);
+    box-sizing: border-box;
+    margin: 22px;
+}
+.title > p {
+    float: left;
+    font-size: 25px;
+    width: 300px;
+    line-height: 118px;
+    box-sizing: border-box;
+}
+.title form {
+    background-color: white;
+}
+.title .button {
+    height: 60px;
+    border-radius: 10px;
+    width: 100px;
+    font-size: 22px;
+    margin: 30px 15px 18px 0;
+    border: 1px solid rgb(196, 196, 196);
+    background-color: white;
+    background-color: #ffffff;
+    float: right;
+    display: block;
+    line-height: 60px;
+    text-align: center;
+}
+.pic {
+    width: 720px;
+}
+.swiper-slide-img-box a {
+    width: 720px;
+    height: 720px;
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.swiper-slide-img-box a img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -ms-interpolation-mode: bicubic;
+}
+.swiper-slide-img-box a video {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -ms-interpolation-mode: bicubic;
+}
+.cont {
+    width: 100%;
+    position: relative;
+}
+.cont-box {
+    padding: 90px 30px 30px 30px;
+    box-sizing: border-box;
+    background-color: white;
+    font-size: 25px;
+}
+.cont .bookmark {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 25px;
+}
+.cont .bookmark i {
+    color: #108ca4  !important;
+}
+.deactive {
+    color: #108ca4  !important;
+}
+
+.active {
+    color: #108ca4  !important;
+}
+.likes-and-comments {
+    width: 100%;
+    height: 100px;
+}
+.likes,
+.comments {
+    width: 50%;
+    height: 90px;
+    border: 1px solid rgb(223, 223, 223);
+    box-sizing: border-box;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.comments {
+    border-left: none;
+}
+.likes {
+    border-right: none;
+    border-left: none;
+}
+.likes-and-comments i {
+    color: rgb(196, 196, 196);
+}
+.active-l i {
+    color: pink !important;
+}
+.share-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.share-links {
+    width: 28%;
+    margin: 7.5px;
+}
+.share-links a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/* .last-link{
+            margin-right: 0;
+        } */
+
+.pet-filter {
+    margin-bottom: 0;
+    background-color: #efefef;
+    border-top: 1px solid rgb(169, 169, 169);
+}
+.number-group{
+    /* width: 200px; */
+    /* border: 1px solid red; */
+    position: absolute;
+    top:22px;
+    left: 30px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.number-group i{
+    font-size: 30px;
+    color: #afafaf;
+
+}
+.number-group span, .number-group a {
+    font-size: 30px;
+    color: #afafaf;
+    padding-left: 5px;
+}
+.xi-bookmark-o{
+    font-size: 45px;
+}
+.bookmark img{
+   width: 40px;
+   height: 40px;
+   display: block;
+}
+.number-group img{
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+.like, .comment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.card-ind{
+    margin-bottom: 7px;
+}

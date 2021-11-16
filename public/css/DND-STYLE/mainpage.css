@@ -1,0 +1,126 @@
+/* main page */
+article{
+    padding-top: 0;
+}
+    .nav-top{
+        background-color: transparent !important;
+        border: none !important;
+    }
+    .main-banner-section{
+        width: 100%;
+        overflow: hidden;
+    }
+    .guide-banner-section{
+        width: 720px;
+        overflow: hidden;
+    }
+            .main-banner-img a img {
+                width: 720px;
+                height: 987px;
+                display: block;
+            }
+            .main-banner-section > div, .guide-banner-section > div{
+                line-height: 0;
+                font-size: 0;
+            }
+
+        .main-event-banner-wrapper .main-banner-img a img{
+            width: 100%;
+            height: 245px;
+            display: block;
+        }
+        /* 이미지 팝업 이미지 크기 */
+        .guide-banner-img img{
+            /* width: 720px !important; */
+            /* height: 1300px !important; */
+            width: 720px;
+            height: 100%;
+            display: block;
+        }
+
+    .main-icons{
+        width: 100%;
+        background-color: #f5f5f5;
+        position: relative;
+    }
+        .main-icons ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .main-icons ul li{
+            width: 25%;
+            height: 100%;
+            margin: auto auto 0 auto;
+        }
+        .main-icons ul li a{
+            text-align: center;
+            display: block;
+            font-size: 20px;
+            padding: 45px 0 45px 0;
+        }
+        .main-icons ul li i{
+            display: block;
+            margin: 0 auto;
+            width: fit-content;
+        }
+
+    .main-footer{
+        width: 100%;
+    }
+        .main-footer .buttons{
+            width: 100%;
+            text-align: center;
+        }
+        .main-footer a{
+            box-sizing: border-box;
+            float: left;
+            margin: 40px 10px 10px 0;
+            border-radius: 30px;
+            display: block;
+        
+        }
+            .footer-div{
+                width: 100%;
+                padding: 50px;
+                box-sizing: border-box;
+                margin: 0 auto;
+                text-align: left;
+                position: relative;
+            }
+            .main-footer span{
+                text-align: left;
+                color: #afafaf;
+                font-size: 20px;
+                padding: 2.5px 0;
+                display: block;
+            }
+            .company{
+                width: 100%;
+                display: block;
+                font-size: 28px !important;
+                color: #333333 !important;
+                font-weight: bold !important;
+                display: block;
+                text-align: left !important;
+                margin-bottom: 30px ;
+            }
+            .copyright{
+                color: #666666 !important;
+            }
+            .sns-group{
+                position: absolute;
+                top: 0%;
+                right: 50px;
+            }
+    .main-log a{
+        display: block;
+        text-align: center;
+        margin: 30px;
+        background-color: gainsboro;
+        width: 100px;
+        border-radius: 100px;
+        height: 50px;
+        line-height: 50px;
+        float: right;
+    }

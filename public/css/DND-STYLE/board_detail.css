@@ -1,0 +1,43 @@
+/* 공지사항/이용안내 상세 글 보기 */
+.search-wrapper{
+    display: none; 
+}
+article{
+    width: 100%;
+    font-size: 22px;
+}
+section{
+    z-index: 990;
+}
+    section .ntf-lists{
+        padding: 50px 50px 50px 50px;
+        width: calc(100% - 100px);
+
+    }
+    section .ntf-lists ul li a{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    section .ntf-lists ul li a .title-box{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    section .ntf-lists ul li a .date-box{
+        font-size: 18px;
+        width: 100%;
+        box-sizing: border-box;
+        color: gray;
+        text-align: right;
+        font-weight: 100;
+        margin-top: 30px;
+    }
+    .contents-wrapper{
+        width: 95%;
+        margin: 0 auto;
+        border: 1px solid rgb(169, 169, 169);
+        border-radius: 5px;
+        padding: 20px;
+        box-sizing: border-box;
+
+    }

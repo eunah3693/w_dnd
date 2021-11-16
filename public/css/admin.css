@@ -1,0 +1,34 @@
+.align_justify_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.align_center {
+    display: flex;
+    align-item: center;
+}
+
+.table_align.click {
+    background-color: #f1f4f5;
+}
+.fa.fa-search {
+    cursor: pointer;
+}
+.cursor {
+    cursor: pointer;
+}
+
+.form-control.focus_x {
+    color: #343a40;
+    background-color: #fff;
+    border-color: #d5dce1;
+    box-shadow: 0 0 0 0;
+}
+.block-options select {
+    width: 150px;
+    height: 35px;
+    color: #666;
+    border: 0;
+    background-color: #f6f7f8;
+    padding-left: 10px;
+}

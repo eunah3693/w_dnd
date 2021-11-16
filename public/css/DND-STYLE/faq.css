@@ -1,0 +1,18 @@
+/* faq */
+article{
+    margin: 0 auto;
+    font-size: 25px;
+}
+.answer{
+    display: none;
+    height:50px ;
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px solid #4e4e4e;
+}
+.question{
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 30px;
+}

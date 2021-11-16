@@ -1,0 +1,23 @@
+/* 이용약관 */
+*{
+    font-size: 23px !important;
+}
+section{
+    width: 100%;
+    font-size: 23px;
+}
+.content-box{
+    width: 90%;
+    margin: 0 auto;
+}
+    section a{
+        width: 90%;
+        height: 70px;
+        line-height: 70px;
+        display: block;
+        border: 1px solid #4e4e4e;
+        margin: 0 auto;
+        margin-top: 20px;
+        text-align: center;
+        border-radius: 50px;
+    }

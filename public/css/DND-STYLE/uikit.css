@@ -1,0 +1,511 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(51, 51, 51);;
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: -0.06em;
+    font-size: 23px;
+}
+
+body{
+    width: 720px;
+    margin: 80px auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+h4{
+    margin: 50px 0 10px 0;
+    font-size: 32px;
+}
+.ui-div{
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.nav-title{
+    font-size: 29px;
+    font-weight: normal;
+}
+.main-title{
+    font-size: 27px;
+    font-weight: normal;
+}
+.sub-title{
+    font-size: 25px;
+    font-weight: normal;
+}
+.body-font{
+    font-size: 23px;
+}
+.caption{
+    font-size: 17px;
+}
+
+.dark-font{
+    color: #4e4e4e;
+}
+.medium-font{
+    color: #7e7e7e;
+}
+.light-font{
+    color: #bdbdbd;
+}
+
+.colors div{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    color: white;
+    line-height: 100px;
+    text-align: center;
+    font-size: 23px;
+    float: left;
+    margin-right: 10px;
+}
+.navy{
+    background-color: #374658;
+}
+.lightgray{
+    background-color: #f2f2f2;
+}
+.lightyellow{
+    background-color: #f9dbb0;
+}
+.lightpink{
+    background-color: #ef998c;
+}
+.darkpink{
+    background-color: #e15b55;
+}
+.blue{
+    background-color: #108ca4;
+}
+
+.font-d{
+    background-color: #4e4e4e;
+}
+.font-m{
+    background-color: #7e7e7e;
+}
+.font-l{
+    background-color: #bdbdbd;
+}
+
+.toggle-wrapper ::before, .toggle-wrapper::after {
+    content: '';
+    position: absolute;
+}
+.toggle-wrapper {
+    overflow: hidden;
+    position: relative;
+    width: 150px;
+    height: 100px;
+    display: inline-block;
+}
+    .toggle {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    }
+        .switch input {
+            height: 40px;
+            left: 0;
+            opacity: 0;
+            position: absolute;
+            top: 0;
+            width: 40px;
+        }
+        .normal label {
+            background: #d7d5f2;
+        }
+        #push:checked + label:before , #like:checked + label:before , #comment:checked + label:before, #email:checked + label:before, #sms:checked + label:before, #talk:checked + label:before {
+            left: 87px;
+        }
+        #push:checked + label, #like:checked + label, #comment:checked + label, #email:checked + label, #sms:checked + label, #talk:checked + label {
+            background: #f9dbb0;
+        }
+        .normal label:before {
+            border: none;
+            width: 150px;
+            height: 70px;
+            background: #fff;
+            transform: rotate(-25deg);
+        }
+        .normal label:after {
+            background: transparent;
+            height: calc(100% + 8px);
+            border-radius: 30px;
+            top: -5px;
+            width: calc(100% + 8px);
+            left: -4px;
+            z-index: 0;
+        }
+
+        label.toggle-item {
+            width: 150px;
+            background: #cecece;
+            height: 70px;
+            display: inline-block;
+            border-radius: 50px;
+            position: relative;
+            transition: all .3s ease;
+            transform-origin: 20% center;
+            cursor: pointer;
+        }
+        label.toggle-item:before {
+            display: block;
+            transition: all .2s ease;
+            width: 50px;
+            height: 50px;
+            top: 8px;
+            left: 8px;
+            border-radius: 2em;
+            border: 2px solid #ffffff;
+            transition: .3s ease;
+        }
+.buttons{
+    font-size: 23px;
+}
+.btn-link{
+    width: 100%;
+    background-color:#f9dbb0 ;
+    display: block;
+    border-radius: 100px;
+    padding: 30px 0;
+    text-align: center;
+    color: #4e4e4e;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.btn-s{
+    display: block;
+    border-radius: 100px;
+    padding: 15px;
+    font-size: 23px;
+    text-align: center;
+    color: #4e4e4e;
+    border: 1px solid #bdbdbd;
+    margin: 10px 0;
+    background-color: transparent;
+}
+.btn-m{
+    display: block;
+    border-radius: 100px;
+    padding: 20px;
+    text-align: center;
+    color: #4e4e4e;
+    font-weight: bold;
+    border: 1px solid #bdbdbd;
+    margin: 10px 0;
+    background-color: transparent;
+
+}
+.btn-l{
+    width: 100%;
+    background-color: transparent;
+    display: block;
+    border-radius: 100px;
+    padding: 30px 0;
+    text-align: center;
+    color: #4e4e4e;
+    font-weight: bold;
+    border: 1px solid #bdbdbd;
+    margin: 10px 0;
+}
+.btn-d{
+    width: 100%;
+    background-color:#bdbdbd ;
+    display: block;
+    border-radius: 100px;
+    padding: 30px 0;
+    text-align: center;
+    color: #4e4e4e;
+    font-weight: bold;
+    border: none;
+    margin: 10px 0;
+}
+.btn-navy{
+    display: block;
+    border-radius: 100px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin: 10px 0;
+    background-color: #374658;
+}
+.btn-lightgray{
+    display: block;
+    border-radius: 100px;
+    padding: 20px;
+    text-align: center;
+    color: #4e4e4e;
+    font-weight: bold;
+    border: none;
+    margin: 10px 0;
+    background-color: #f2f2f2;
+}
+.btn-lightyellow{
+    display: block;
+    border-radius: 100px;
+    padding: 20px;
+    text-align: center;
+    color: #4e4e4e;
+    font-weight: bold;
+    border: none;
+    margin: 10px 0;
+    background-color: #f9dbb0;
+}
+.btn-lightpink{
+    display: block;
+    border-radius: 100px;
+    padding: 20px;
+    text-align: center;
+    color: #4e4e4e;
+    font-weight: bold;
+    border: none;
+    margin: 10px 0;
+    background-color: #ef998c;
+}
+.btn-darkpink{
+    display: block;
+    border-radius: 100px;
+    padding: 20px;
+    text-align: center;
+    color: #4e4e4e;
+    font-weight: bold;
+    border: none;
+    margin: 10px 0;
+    background-color: #e15b55;
+}
+.btn-blue{
+    display: block;
+    border-radius: 100px;
+    padding: 20px;
+    text-align: center;
+    color: #4e4e4e;
+    font-weight: bold;
+    border: none;
+    margin: 10px 0;
+    background-color: #108ca4;
+}
+.btn-filter{
+    width: 25%;
+    background-color:transparent ;
+    display: block;
+    border-radius: 100px;
+    padding: 20px 0;
+    text-align: center;
+    color: #4e4e4e;
+    border: none;
+    margin: 10px 0;
+    border: 1px solid #108ca4;
+    box-sizing: border-box;
+}
+.btn-filter-active{
+    width: 25%;
+    background-color:#108ca4 ;
+    display: block;
+    border-radius: 100px;
+    padding: 20px 0;
+    text-align: center;
+    color: #4e4e4e;
+    border: none;
+    margin: 10px 0;
+}
+
+.input-label input{
+    width: 100%;
+    background-color: transparent ;
+    display: block;
+    border-radius: 100px;
+    padding: 20px 0;
+    text-align: left;
+    padding-left: 25px;
+    color: #4e4e4e;
+    border: 1px solid #bdbdbd;
+    margin: 10px 0;
+    
+}
+.input-label{
+    position: relative;
+    
+}
+.input-wrap{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.input-title{
+    display: block;
+    float: left;
+    width: 100px;
+    text-align: left;
+}
+.confirm-text{
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    font-size: 15px;
+    color: #bdbdbd;
+}
+
+input[type="checkbox"] {
+    display:none;
+}
+
+input[type="checkbox"] + label {
+    color:#4e4e4e;
+}
+
+input[type="checkbox"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-2px 10px 0 0;
+    vertical-align:middle;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+input[type="checkbox"]:checked + label span {
+    border-radius: 5px;
+    background-color: #bdbdbd;
+}
+
+input[type="radio"] {
+    display:none;
+}
+
+input[type="radio"] + label {
+    color:#4e4e4e;
+    font-family:Arial, sans-serif;
+}
+
+input[type="radio"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-2px 10px 0 0;
+    vertical-align:middle;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked + label span {
+    background-color: #bdbdbd;
+
+}
+.custom-select {
+    position: relative;
+    font-family: Arial;
+  }
+  
+  .custom-select select {
+    display: none; /*hide original SELECT element:*/
+  }
+  
+  .select-selected {
+    background-color: #ffffff;
+  }
+  
+  /*style the arrow inside the select element:*/
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #4e4e4e transparent transparent transparent;
+  }
+  
+  /*point the arrow upwards when the select box is open (active):*/
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #4e4e4e transparent;
+    top: 7px;
+  }
+  
+  /*style the items (options), including the selected item:*/
+  .select-items div,.select-selected {
+    color: #4e4e4e;
+    padding: 8px 16px;
+    border: 1px solid transparent ;
+    border-color:  transparent transparent #f0f0f0 transparent ;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  /*style items (options):*/
+  .select-items {
+    position: absolute;
+    background-color: #ffffff;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  
+  /*hide the items when the select box is closed:*/
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+
+
+
+
+.select-script{
+    position:relative; 
+    width:100px; 
+    height:40px; 
+    line-height:40px; 
+    border:1px solid #bdbdbd;
+    border-radius:100px; 
+    text-transform:uppercase; 
+    background:#fff;
+    box-sizing: border-box;
+}
+.select-script label{
+    position:absolute; width:90%; 
+    font-size:.86em; 
+    color:#606976; 
+    top:0; 
+    left:0; 
+    padding: 0 10px;
+    box-sizing: border-box;
+    /* padding:0 5%; */
+}
+.select-script label:after{
+    content:'▼'; 
+    width:20px; 
+    height:40px; 
+    position:absolute; 
+    top:0; 
+    right:0; 
+    font-size:.70em; 
+    color:#4e4e4e; 
+    text-align:center; 
+    background:transparent;
+}
+.select-script select{
+    width:100%; 
+    height:40px; 
+    opacity:0; 
+    filter:alpha(opacity=0); 
+    -ms-filter:alpha(opacity=0)/* IE 8 */;
+}
+ 
+
